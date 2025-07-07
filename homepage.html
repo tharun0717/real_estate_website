@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Real Estate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">Luxury Estates</div>
+        <div class="nav-links">
+            <a href="index.html"><i class="fas fa-home"></i> Home</a>
+            <a href="services.html"><i class="fas fa-concierge-bell"></i> Services</a>
+            <a href="login page.html"><i class="fas fa-user"></i> Login</a>
+        </div>
+    </div>
+    
+    <div class="hero">
+        <h1>Find Your Dream Home</h1>
+        <p>Discover luxurious properties in prime locations tailored to your lifestyle and preferences.</p>
+        
+        <div class="search-bar">
+            <input type="text" placeholder="Search for properties, locations, or features...">
+            <button><i class="fas fa-search"></i> Search</button>
+        </div>
+        
+        <div class="action-buttons">
+            <a href="buy.html" class="btn"><i class="fas fa-home"></i> Buy</a>
+            <a href="sell.html" class="btn"><i class="fas fa-tag"></i> Sell</a>
+            <a href="rent.html" class="btn"><i class="fas fa-key"></i> Rent</a>
+        </div>
+    </div>
+
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Sign Up</title>
+    <link rel="stylesheet" href="signup page.html">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>PREMIUM REAL ESTATE</h1>
+    </div>
+    
+    <div class="signup-container">
+        <div class="signup-box">
+            <h2>Create Your Account</h2>
+            <p>Join our exclusive real estate platform today</p>
+            
+            <div class="tabs">
+                <div class="tab-link active" onclick="openTab('personal')">Personal</div>
+                <div class="tab-link" onclick="openTab('business')">Business</div>
+                <div class="tab-link" onclick="openTab('premium')">Premium</div>
+            </div>
+            
+            <div class="progress-bar">
+                <div class="progress" id="progress-indicator"></div>
+            </div>
+            <div class="progress-steps">
+                <div class="step active">Account</div>
+                <div class="step">Details</div>
+                <div class="step">Confirm</div>
+            </div>
+            
+            <!-- Personal Tab -->
+            <div id="personal" class="tab-content active">
+                <div class="name-fields">
+                    <div class="input-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="First Name" required>
+                    </div>
+                    <div class="input-group">
+                        <i class="fas fa-user"></i>
+                        <input type="text" placeholder="Last Name" required>
+                    </div>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Password" required>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Confirm Password" required>
+                </div>
+                
+                <div class="user-type">
+                    <label>
+                        <input type="radio" name="user-type" checked>
+                        <span>Buyer</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="user-type">
+                        <span>Seller</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="user-type">
+                        <span>Agent</span>
+                    </label>
+                </div>
+                
+                <div class="terms">
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+                </div>
+                
+                <button type="submit">Create Account</button>
+                
+                <div class="social-signup">
+                    <p>Or sign up with</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-google"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-apple"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="login-link">
+                    Already have an account? <a href="#">Log In</a>
+                </div>
+            </div>
+            
+            <!-- Business Tab -->
+            <div id="business" class="tab-content">
+                <div class="input-group">
+                    <i class="fas fa-building"></i>
+                    <input type="text" placeholder="Company Name" required>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-briefcase"></i>
+                    <input type="text" placeholder="Business Type" required>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="Business Email" required>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-phone"></i>
+                    <input type="tel" placeholder="Business Phone" required>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <input type="text" placeholder="Business Address" required>
+                </div>
+                
+                <div class="input-group">
+                    <i class="fas fa-lock"></i>
+                    <input type
