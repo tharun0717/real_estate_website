@@ -15,13 +15,15 @@ A visually stunning and responsive real estate website designed to showcase prem
 
 - **Frontend:** HTML, CSS, JavaScript  
 - **Responsive Design:** Flexbox, CSS Grid, Media Queries  
-- *(Optional: Add frameworks like Tailwind CSS, React, or Bootstrap if used)*
 
-## 📸 Screenshots
-
-*(Add screenshots here if available)*  
-Example:  
-![Homepage Preview](./screenshots/homepage.png)
+📂 Project Structure
+real_estate_website/
+├── index.html
+├── style.css
+├── script.js
+├── images/
+│   └── property1.jpg, ...
+└── README.md
 
 ## 🚀 Getting Started
 
